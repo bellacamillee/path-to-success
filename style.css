@@ -1,5 +1,10 @@
+/*CSS BY Isabella Andujo*/
+
+/* IMPORTED FONTS */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Kavoon&display=swap');
 
+/* CSS RESET */
 *,
 *::before,
 *::after {
@@ -8,6 +13,7 @@
   padding: 0;
 }
 
+/* ROOT VARIABLES */
 :root {
   --teal: #4CA7C0;
   --purple: #484FB7;
@@ -20,6 +26,7 @@
   --radius: 16px;
 }
 
+/* GLOBAL STYLES (mobile first/small) */
 body {
   font-family: 'Inter', sans-serif;
   background-color: var(--lavender);
